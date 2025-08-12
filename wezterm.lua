@@ -56,6 +56,12 @@ config.keys = {
     mods = 'CMD',
     action = wezterm.action.SpawnWindow,
   },
+  -- Add newline for multiline input (useful for Claude Code CLI)
+  {
+    key = 'Enter',
+    mods = 'SHIFT',
+    action = wezterm.action.SendString '\n',
+  },
 }
 
 -- Make new instances spawn in new windows (not tabs)
