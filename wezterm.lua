@@ -4,7 +4,7 @@ local wezterm = require("wezterm")
 -- This table will hold the configuration.
 local config = wezterm.config_builder()
 
-config.font = wezterm.font("MesloLGS NF")
+config.font = wezterm.font("MesloLGS Nerd Font")
 config.font_size = 14.0
 config.color_scheme = "Dracula"
 
